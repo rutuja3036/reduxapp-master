@@ -12,6 +12,7 @@ export const themeSlice = createSlice({
   },
 });
 
+
 export const { changeColor } = themeSlice.actions;
 
 export default themeSlice.reducer;
